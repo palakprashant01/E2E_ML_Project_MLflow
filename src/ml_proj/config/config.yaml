@@ -1,0 +1,10 @@
+# Data Ingestion Related Configuration
+
+artifacts_source: artifacts # executing the pipeline will create an artifacts folder, which would contain the artifacts related to different parts of the data science project (data ingestion, data validation, etc.)
+
+data_ingestion:
+  root_directory: artifacts/data_ingestion
+  source_URL: https://github.com/entbappy/Branching-tutorial/raw/master/winequality-data.zip
+  local_data: artifacts/data_ingestion/data.zip
+  unzip_directory: artifacts/data_ingestion # unzip and store it in the data_ingestion product
+

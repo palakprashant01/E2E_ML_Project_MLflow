@@ -23,7 +23,7 @@ list_of_files = [
     f"src/{projectName}/entity/__init__.py",
     f"src/{projectName}/entity/config_entity.py",
     f"src/{projectName}/constants/__init__.py",
-    f"src/{projectName}/config/config.yaml",
+    "config/config.yaml",
     "params.yaml",
     "schema.yaml",
     "main.py",
